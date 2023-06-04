@@ -59,6 +59,5 @@ public class HomeworkTwst {
         $(".modal-body").shouldHave(text("Uttar Pradesh"));
         $(".modal-body").shouldHave(text("Agra"));
         $("#closeLargeModal").click();
-        sleep(5000);
     }
 }

@@ -1,17 +1,17 @@
-package github;
+package com.justforge359;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
-public class HomeworkTwst {
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
+public class HomeworkTest {
 
 
     @Test
-    void SuccesfulTest () {
+    void successfulTest() {
         Configuration.browserSize = "1920x1080";
         //открыть страницу https://demoqa.com/automation-practice-form
         open("https://demoqa.com/automation-practice-form");
